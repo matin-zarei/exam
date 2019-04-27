@@ -1,0 +1,70 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	
+}
+header{
+	background-color: #f1f1f1;
+    border: 1px solid #dddddd;
+    padding: 3px 1px;
+	text-align:center
+}
+a:hover {
+	text-decoration:none
+}
+/* Quiz_start */ 
+.Quiz_start{
+	background-color: white;
+    box-shadow: 0 0 1px 1px lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+..Quiz_start font span {
+	font-size: larger;
+    font-weight: 400;
+	display:block;
+	text-align:center
+}
+ul{
+	display:table !important;
+	margin:auto;
+	line-height:2
+}
+
+
+.btn-change{
+        display: block;
+
+    background: linear-gradient(45deg, #ff9433 0%, #fc8888 100%);
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff;
+    font-size: x-large;
+  text-align:center;
+    margin: 20px auto;
+}
+.btn-change:hover{
+    -webkit-transform: scale(1.1);
+    background: linear-gradient(-45deg, #fc8888 0%,  #ff9433100%);
+	color:white
+}
+.btn-change1{
+    height: 50px;
+    width: 100px;
+    background: lightseagreen;
+    margin: 20px;
+    float: left;
+    border: 0px;
+    color: #fff;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.5s;
+    -webkit-box-shadow: 0px 0px 0 0 #31708f inset , 0px 0px 0 0 #31708f inset;
+}
+.btn-change1:hover{
+    -webkit-box-shadow: 50px 0px 0 0 #31708f inset , -50px 0px 0 0 #31708f inset;
+}
+/* End Quiz_start*/
